@@ -35,11 +35,11 @@
             </div>
             <div>
             	<br>
-            	<button onclick="connect()">Connect</button><br><br>
-                <button onclick="isConnected()">is Connected</button><br><br>
-            	<button onclick="send()">Send</button><br><br>
-            	<button onclick="disconnect()">Disconnect</button><br><br>
-                <button onclick="disconnectAll()">DisconnectAll</button><br><br>
+            	<button onClick="connect()">Connect</button><br><br>
+                <button onClick="isConnected()">is Connected</button><br><br>
+            	<button onClick="send()">Send</button><br><br>
+            	<button onClick="disconnect()">Disconnect</button><br><br>
+                <button onClick="disconnectAll()">DisconnectAll</button><br><br>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
@@ -47,8 +47,8 @@
         <script type="text/javascript">
             app.initialize();
             
-            var host = "10.56.0.62",
-            data = "-- data to be sent --",
+            var host = "192.168.30.102",
+            data = "Test Message",
             key = "";
             
             function stub(d) {
