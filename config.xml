@@ -1,12 +1,25 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tlantic.socketdemo" version="0.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>In je socket!</name>
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "nl.smapps.iPhoneLockerV2"
+        versionCode="11" 
+        version   = "1.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>In je Socket</name>
+
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+		Sock it up
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    
+    <preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	
+	
+    <author href="http://www.smapps.nl" email="info@smapps.nl">
+        SMAPPS | S.W. Verploeg and M.Haagen
     </author>
-    <content src="index.html" />
-    <access origin="*" />
+
 </widget>
