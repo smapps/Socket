@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "nl.smapps.iPhoneLockerV2"
+        versionCode="11" 
+        version   = "1.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>In je Socket</name>
+
+    <description>
+		Sock it up
+    </description>
+    
+    <preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	
+	
+    <author href="http://www.smapps.nl" email="info@smapps.nl">
+        SMAPPS | S.W. Verploeg and M.Haagen
+    </author>
+
+</widget>
